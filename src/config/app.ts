@@ -18,7 +18,7 @@ const appConfig = {
         saleService: new SaleService(),
         userService: new UserService(),
     },
-    secret: process.env.APP_SECRET as string
+    secret: process.env.TIRA_MULTAS_APP_SECRET as string
 };
 
 export type AppConfig = typeof appConfig;

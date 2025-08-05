@@ -227,7 +227,7 @@ const SaleController = {
 
                 axios.get(`https://api.mercadopago.com/v1/payments/${data.id}`, {
                     headers: {
-                        'Authorization': `Bearer ${process.env.MERCHANT_KEY_MP}`
+                        'Authorization': `Bearer ${process.env.TIRA_MULTAS_MERCHANT_KEY_MP}`
                     }
                 }).then(async (response) => {
                     const { status, data: mpResponse } = response;

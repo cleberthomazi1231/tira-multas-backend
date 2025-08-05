@@ -82,7 +82,7 @@ export default class SaleService {
             if(paymentData.type === 'CREDITCARD') {
                 mercadopago.configure({
                     sandbox: false,
-                    access_token: process.env.MERCHANT_KEY_MP as string
+                    access_token: process.env.TIRA_MULTAS_MERCHANT_KEY_MP as string
                 });
             
                 const payment_data = {

@@ -2,8 +2,8 @@ import 'dotenv/config';
 import logger from './app/logger';
 import server from './app/server';
 
-const app = server.listen(process.env.APP_PORT, () => {
-    logger.Info(`[APP]: Started on port: ${process.env.APP_PORT}`);
+const app = server.listen(process.env.TIRA_MULTAS_APP_PORT, () => {
+    logger.Info(`[APP]: Started on port: ${process.env.TIRA_MULTAS_APP_PORT}`);
 });
   
 process.on('SIGTERM', () => { 
