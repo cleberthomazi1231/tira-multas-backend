@@ -1,0 +1,6 @@
+build
+node_modules
+__tests__/
+.env
+!.env.example
+package-lock.json
