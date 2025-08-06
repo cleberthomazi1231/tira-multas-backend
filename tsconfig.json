@@ -17,6 +17,7 @@
         "**/*.test.js",
         "vitest.config.js", 
         "vitest-e2e.config.js",
-        "knexfile.ts"
+        "knexfile.ts",
+        "scripts"
     ]
 }
