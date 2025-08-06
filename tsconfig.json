@@ -19,5 +19,5 @@
         "vitest-e2e.config.js",
         "knexfile.ts",
         "scripts"
-    ]
+    ] 
 }
